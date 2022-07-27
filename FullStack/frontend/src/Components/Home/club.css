@@ -1,0 +1,72 @@
+.table {
+    margin: auto;
+    border-collapse: collapse;
+    color: #444;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px solid #f2f5f7;
+    
+}
+
+.table, th, td {
+    padding: 8px 20px;
+    text-align: center;
+}
+
+.table tr th {
+    background: #35a9db;
+    color:  rgb(252, 243, 243) !important;
+  
+}
+
+.table tr:nth-child(even) {
+    background-color: rgb(235, 241, 241);
+}
+
+table tr:hover {
+    cursor: pointer;
+}
+
+.button-edit {
+    background-color: #444;
+    color: whitesmoke;
+    border: none;
+    padding: 5px 8px;
+}
+
+.button-hapus {
+    background-color: rgb(216, 71, 34);
+    color: whitesmoke;
+    border: none;
+    padding: 3px 8px;
+    margin-left: 6px;
+}
+
+.button-edit:hover{
+    cursor: pointer;
+    background-color: rgba(23, 168, 18, 0.692);
+    color: white;
+}
+
+.button-hapus:hover{
+    cursor: pointer;
+    background-color: rgba(16, 162, 219, 0.979);
+}
+
+.container-table {
+    margin-top: 80px;
+}
+
+.button-detail {
+    background-color: rgb(30, 76, 204);
+    color: whitesmoke;
+    border: none;
+    padding: 5px 8px;
+    margin-left: 6px;
+}
+
+.button-detail:hover{
+    cursor: pointer;
+    background-color: rgba(40, 149, 238, 0.733);
+    color: white;
+}
+

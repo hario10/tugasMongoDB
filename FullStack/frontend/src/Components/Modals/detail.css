@@ -1,0 +1,47 @@
+.detail {
+    margin-top: 80px !important;
+}
+
+.text-detail {
+    margin: auto;
+}
+
+.list-detail {
+    margin: auto;
+    margin-top: 20PX;
+    width: 50%;
+}
+
+span {
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.isi {
+    margin-left: 73px;
+    font-weight: normal;
+}
+
+.isi2 {
+    margin-left: 65px;
+    font-weight: normal;
+}
+
+.isi3 {
+    margin-left: 77px;
+    font-weight: normal;
+}
+
+.isi4 {
+    margin-left: 72px;
+    font-weight: normal;
+}
+
+.isi5 {
+    margin-left: 21px;
+    font-weight: normal;
+}
+
+.nomor {
+    font-weight: normal;
+}

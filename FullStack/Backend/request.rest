@@ -1,0 +1,34 @@
+GET http://localhost:5000/anggota
+
+
+###
+POST http://localhost:5000/anggota
+Content-Type: application/json
+
+{
+    "nama" : "M. Riski",
+    "alamat": "Koto Tuo",
+    "umur": 27,
+    "email": "riskialbaihaqi27@gmail.com",
+    "jenisKelamin": "Pria"
+}
+
+
+###
+GET http://localhost:5000/anggota/62df4187da50cd6fd115a60e
+
+###
+PATCH http://localhost:5000/anggota/62df4187da50cd6fd115a60e
+Content-Type: application/json
+
+{
+    "nama" : "Eko Aja",
+    "alamat": "Koto Tuo",
+    "umur": 27,
+    "email": "riskialbaihaqi27@gmail.com",
+    "jenisKelamin": "Pria"
+}
+
+
+###
+DELETE http://localhost:5000/anggota/62df4187da50cd6fd115a60e

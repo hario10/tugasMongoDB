@@ -1,0 +1,10 @@
+.data {
+    background-color: rgb(226, 223, 218) !important;
+    width: 55% !important;
+    padding: 20px 30px !important;
+    margin-bottom: 40px !important;
+    margin-top: 80px !important;
+    border-radius: 20px !important;
+    box-shadow: 2px 0px 15px 0px black !important;
+    
+}
